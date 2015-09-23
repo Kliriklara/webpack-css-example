@@ -1,8 +1,6 @@
-# webpack-css-example
+# webpack-css-example with CSS Modules
 
-Example repo showing how to automatically generate a CSS bundle from explicitly required Sass source with Webpack.
-
-:sparkles: [**Read the blog post!**](http://bensmithett.com/smarter-css-builds-with-webpack/) :sparkles:
+Example repo showing how to enable **module mode** when using Webpack's [css-loader](https://github.com/webpack/css-loader). 
 
 ## Running
 

@@ -2,12 +2,12 @@ import React from "react";
 import Header from "javascripts/header";
 import Footer from "javascripts/footer";
 
-import "stylesheets/modules/container";
+import styles from "stylesheets/modules/container";
 
 const Container = React.createClass({
   render () {
     return (
-      <div className="container">
+      <div className={styles.container}>
         <Header />
         <Footer />
       </div>

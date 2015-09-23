@@ -3,7 +3,7 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const path = require("path");
 
 const sassLoaders = [
-  "css-loader",
+  "css-loader?modules&sourceMap&localIdentName=[local]---[hash:base64:5]",
   "autoprefixer-loader?browsers=last 2 version",
   "sass-loader?indentedSyntax=sass&includePaths[]=" + path.resolve(__dirname, "./src"),
 ];
@@ -25,6 +25,7 @@ const config = {
       },
     ]
   },
+  devtools: 'sourcemap',
   output: {
     filename: "[name].js",
     path: path.join(__dirname, "./build"),

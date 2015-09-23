@@ -1,11 +1,11 @@
 import React from "react";
 
-import "stylesheets/modules/footer";
+import styles from "stylesheets/modules/footer";
 
 const Footer = React.createClass({
   render () {
     return (
-      <div className="footer">
+      <div className={styles.footer}>
         Footer
       </div>
     );

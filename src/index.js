@@ -1,7 +1,8 @@
 import React from "react";
+import ReactDOM from "react-dom";
 
 import "stylesheets/base";
 
 import Container from "javascripts/container";
 
-React.render(<Container />, document.querySelector("#main"));
+ReactDOM.render(<Container />, document.querySelector("#main"));
